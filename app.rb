@@ -5,7 +5,7 @@ require_relative 'models/model.rb'
 class App < Sinatra::Base
  
   get '/' do
-    erb :home
+    erb :project
   end
 
   post '/' do
